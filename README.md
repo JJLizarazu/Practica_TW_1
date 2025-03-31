@@ -32,11 +32,11 @@ Accede a la página desplegada de este repositorio aquí:
 ### 📥 **Descarga y Configuración Inicial**
 1. Clona el repositorio en tu máquina local:
     ```bash
-    git clone <URL-del-repositorio>
+    git clone "https://github.com/JJLizarazu/Practica_TW_1.git"
     ```
 2. Navega al directorio del proyecto:
     ```bash
-    cd practica-portafolio
+    cd Practica_TW_1
     ```
 
 ### 🌐 **Cómo Visualizar el Proyecto**
