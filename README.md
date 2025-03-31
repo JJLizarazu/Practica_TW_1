@@ -6,6 +6,12 @@
 
 ---
 
+## 🌐 **Página del Proyecto**
+Accede a la página desplegada de este repositorio aquí:  
+🔗 [Práctica Portafolio](https://jjlizarazu.github.io/Practica_TW_1/)
+
+---
+
 ## 📁 **Estructura del Proyecto**
 
 ### Archivos principales:
