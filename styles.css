@@ -1,0 +1,262 @@
+:root{
+    --colorBase: #0df;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Krona One, sans-serif;
+}
+
+
+body {
+    background-color: #000;
+}
+
+.head-top{
+    width: 100%;
+}
+
+.head-top .links{
+    font-family: Roboto;
+    font-size: 14px;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--colorBase);
+}
+
+.head-top .links:nth-child(1){
+    margin-left: 375px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container{    
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    width: 800px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.item {
+    margin: 20px;
+}
+
+.item .title{    
+    color: #fff;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.item .title strong{
+    color: #0df;
+}
+
+.container .item p{
+    color: #f3f3f3;
+    font-family: Montserrat, Roboto;
+    font-size: 15px;
+    padding-top: 25px;
+    line-height: 23px;
+}
+
+.container .item img{
+    width: 300px;
+    height: 320px;
+}
+
+.container .item:nth-child(2){
+    width: 300px;
+    height: 320px;
+    margin-bottom: 170px;
+}
+
+.container .item .subtitle{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.container .item .social-media{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .item .social-media .button{
+    display: flex;
+    text-decoration: none;
+    border: 2px solid #0df;
+    color: #fff;
+    margin: 10px;
+    width: 278px;
+    height: 48px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.container .item .social-media .button .img-buttons{
+    color: #0df;
+    padding-right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+footer{
+    width: 100%;
+    background-color: #0df;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer .made-by{
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+
+.container .item .social-media .button:hover{
+    box-shadow: 0 0 10px 5px #0df;
+}
+
+.head-top .links:hover{
+    text-shadow: #aff 0 0 20px;
+}
+
+
+@media (max-width: 1023px) {
+
+    body{
+        margin: 0;
+    }
+
+    .head-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .head-top .links{
+        text-align: center;
+        margin: 20px;
+    }
+
+    
+    .head-top .links:nth-child(1){
+        margin-left: 0;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+        padding: 20px;
+        width: 700px;
+    }
+
+    main{
+        margin-top: 0;
+    }
+
+    .container img{
+        justify-content: center;
+        margin: 0;
+    }
+
+    .container .item:nth-child(1){
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .container .item:nth-child(2){
+        width: 300px;
+        height: 320px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    footer{
+        position: relative;
+        bottom: 0;
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    body{
+        margin: 0;
+    }
+
+    .head-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .head-top .links{
+        text-align: center;
+        margin: 20px;
+    }
+
+    
+    .head-top .links:nth-child(1){
+        margin-left: 0;
+    }
+
+    .container{
+        flex-direction: column-reverse;
+        padding: 20px;
+        width: 500px;
+    }
+
+    main{
+        margin-top: 0;
+    }
+
+    .container img{
+        justify-content: center;
+        margin: 0;
+    }
+
+    .container .item:nth-child(1){
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .container .item:nth-child(2){
+        width: 300px;
+        height: 320px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    footer{
+        position: relative;
+        bottom: 0;
+        margin-bottom: 0;
+    }
+
+}
+
+
